@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* HEADER */
+
+.head {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.head .logo_container {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.head .menu_wrapper {
+    margin-top: 43px;
+}
+
+.head .menu_wrapper li {
+    display: inline-block;
+}
+
+.head .menu_wrapper span {
+    color: #fff;
+}
+
+.head .menu_wrapper img {
+    margin: 0 17px;
+}
+
+/* BANNER */
+
+.banner {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #309cd4;
+}
+
+.banner_image {
+    padding-top: 340px;
+}
+
+.banner h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.banner p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.45;
+    color: rgba(255,255,255, .8);
+    margin-top: 20px;
+}
+
+/* INTRO */
+
+.intro {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.intro .title {
+    text-align: center;
+    margin-top: 185px;
+}
+
+.intro .title h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #555;
+}
+
+.intro .title p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #a0a0a0;
+    margin-top: 40px;
+}
+
+.intro .intro_wrap {
+    margin-top: 100px;
+}
+
+.intro .intro_wrap li {
+    padding-bottom: 200px;
+}
+
+.intro .intro_wrap h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #555;
+    margin-top: 70px;
+}
+
+.intro .intro_wrap p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #a0a0a0;
+    margin-top: 32px;
+}
+
+/* SERVICE */
+
+.service {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.service .service_title h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #555;
+    padding-top: 185px;
+}
+
+.service .service_title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #a0a0a0;
+    margin-top: 32px;
+}
+
+.service .app_wrap {
+    padding-bottom: 130px;
+}
+
+.service .app_wrap h4 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #555;
+    margin-top: 60px;
+}
+
+.service .app_wrap img {
+    margin-top: 120px;
+}
+
+.service .app_wrap h3 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #555;
+    margin-top: 30px;
+}
+
+.service .app_wrap p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #a0a0a0;
+    line-height: 1.6;
+    margin-top: 46px;
+}
